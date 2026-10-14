@@ -282,8 +282,8 @@ let autoRefreshEnabled = localStorage.getItem('autoRefreshEnabled') !== 'false';
 let refreshTimeout = null;
 let challengeActive = false;
 
-const BASE_MIN_MS = 3 * 60 * 1000;   // 3 minutes
-const BASE_MAX_MS = 6 * 60 * 1000;   // 6 minutes
+const BASE_MIN_MS = 1 * 60 * 1000;   // 1 minute
+const BASE_MAX_MS = 3 * 60 * 1000;   // 3 minutes
 const MAX_INTERVAL_MS = 15 * 60 * 1000; // backoff cap
 const HOUR_MS = 60 * 60 * 1000;
 
